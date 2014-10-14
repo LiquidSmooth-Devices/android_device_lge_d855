@@ -17,10 +17,10 @@
 # inherit from common g3
 -include device/lge/g3-common/BoardConfigCommon.mk
 
-TARGET_OTA_ASSERT_DEVICE := g3,vs985
+TARGET_OTA_ASSERT_DEVICE := g3,d855
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_vs985_defconfig
+TARGET_KERNEL_CONFIG := cyanogenmod_d855_defconfig
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 16777216
@@ -40,4 +40,4 @@ WIFI_DRIVER_FW_PATH_STA := "sta"
 WIFI_DRIVER_FW_PATH_AP := "ap"
 
 # inherit from the proprietary version
--include vendor/lge/vs985/BoardConfigVendor.mk
+-include vendor/lge/d855/BoardConfigVendor.mk
