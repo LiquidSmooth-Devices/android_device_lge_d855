@@ -1,5 +1,5 @@
 # Device
-$(call inherit-product, device/lge/d851/full_d855.mk)
+$(call inherit-product, device/lge/d855/full_d855.mk)
 
 # Phone
 $(call inherit-product, vendor/liquid/config/common_phone.mk)
